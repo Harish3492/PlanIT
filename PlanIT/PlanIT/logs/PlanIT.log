@@ -1,0 +1,51 @@
+2021-05-24 01:29:56,201 INFO  - ====================================
+2021-05-24 01:29:56,203 INFO  - 		TestStarted		
+2021-05-24 01:29:56,203 INFO  - ====================================
+2021-05-24 01:29:56,204 INFO  - Starting test: mandatoryfieldserror
+2021-05-24 01:29:56,215 INFO  - Running First @test to check mandatory fields
+2021-05-24 01:29:56,283 INFO  - Option clicked -->Contact
+2021-05-24 01:30:15,907 INFO  - ====================================
+2021-05-24 01:30:15,908 INFO  - 		TestCompleted		
+2021-05-24 01:30:15,908 INFO  - ====================================
+2021-05-24 01:30:15,908 INFO  - Test Success: mandatoryfieldserror
+2021-05-24 01:30:17,195 INFO  - Navigated back to home page
+2021-05-24 01:30:17,197 INFO  - ====================================
+2021-05-24 01:30:17,197 INFO  - 		TestStarted		
+2021-05-24 01:30:17,197 INFO  - ====================================
+2021-05-24 01:30:17,197 INFO  - Starting test: successsubmission
+2021-05-24 01:30:17,198 INFO  - Running Second @test to check success submission
+2021-05-24 01:30:17,266 INFO  - Option clicked -->Contact
+2021-05-24 01:30:19,658 INFO  - Submit clicked with correct user details
+2021-05-24 01:30:34,615 INFO  - ====================================
+2021-05-24 01:30:34,615 INFO  - 		TestCompleted		
+2021-05-24 01:30:34,615 INFO  - ====================================
+2021-05-24 01:30:34,615 INFO  - Test Success: successsubmission
+2021-05-24 01:30:35,573 INFO  - Navigated back to home page
+2021-05-24 01:30:35,574 INFO  - ====================================
+2021-05-24 01:30:35,574 INFO  - 		TestStarted		
+2021-05-24 01:30:35,574 INFO  - ====================================
+2021-05-24 01:30:35,574 INFO  - Starting test: invaliddatavalidation
+2021-05-24 01:30:35,575 INFO  - Running third @test to check invalid fields
+2021-05-24 01:30:35,627 INFO  - Option clicked -->Contact
+2021-05-24 01:30:37,730 INFO  - ====================================
+2021-05-24 01:30:37,730 INFO  - 		TestCompleted		
+2021-05-24 01:30:37,730 INFO  - ====================================
+2021-05-24 01:30:37,731 INFO  - Test Success: invaliddatavalidation
+2021-05-24 01:30:38,241 INFO  - Navigated back to home page
+2021-05-24 01:30:38,242 INFO  - ====================================
+2021-05-24 01:30:38,242 INFO  - 		TestStarted		
+2021-05-24 01:30:38,242 INFO  - ====================================
+2021-05-24 01:30:38,242 INFO  - Starting test: cartvalidation
+2021-05-24 01:30:38,243 INFO  - Running fourth @test to check cart
+2021-05-24 01:30:38,295 INFO  - Option clicked -->shop
+2021-05-24 01:30:48,755 INFO  - Article Funny Cow added to the cart with Quantity 2
+2021-05-24 01:30:53,914 INFO  - Article Fluffy Bunny added to the cart with Quantity 1
+2021-05-24 01:30:54,018 INFO  - Option clicked -->cart
+2021-05-24 01:30:56,058 INFO  - Cart validation is in progress
+2021-05-24 01:30:56,081 INFO  - Cart validation is completed
+2021-05-24 01:30:56,102 INFO  - Cart validation is in progress
+2021-05-24 01:30:56,125 INFO  - Cart validation is completed
+2021-05-24 01:30:56,125 INFO  - ====================================
+2021-05-24 01:30:56,125 INFO  - 		TestCompleted		
+2021-05-24 01:30:56,125 INFO  - ====================================
+2021-05-24 01:30:56,125 INFO  - Test Success: cartvalidation

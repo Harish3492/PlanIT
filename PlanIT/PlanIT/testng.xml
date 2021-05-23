@@ -1,0 +1,7 @@
+<suite name="planIT_TestSuite" configfailurepolicy="continue">
+	<test name="PlanIT_Tests" thread-count="4">
+		<classes>
+		<class name="planIT.tests.JupiterTests" />
+		</classes>
+	</test>
+</suite>

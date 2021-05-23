@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Running First @test to check mandatory fields]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the Contact Menu]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect details to validate the Error messages]]>
+    </line>
+    <line>
+      <![CDATA[Correct details to validate No Error messages displayed]]>
+    </line>
+    <line>
+      <![CDATA[Running Second @test to check success submission]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the Contact Menu]]>
+    </line>
+    <line>
+      <![CDATA[Details for the user submitted]]>
+    </line>
+    <line>
+      <![CDATA[Running third @test to check invalid field details]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the Contact Menu]]>
+    </line>
+    <line>
+      <![CDATA[Invalid details to validate the Error messages]]>
+    </line>
+    <line>
+      <![CDATA[Running fourth @test to check success submission]]>
+    </line>
+    <line>
+      <![CDATA[Navigating to the shop Menu]]>
+    </line>
+    <line>
+      <![CDATA[Adding items to the cart]]>
+    </line>
+    <line>
+      <![CDATA[Validating items in the cart]]>
+    </line>
+  </reporter-output>
+  <suite name="planIT_TestSuite" duration-ms="57226" started-at="2021-05-23T14:45:43Z" finished-at="2021-05-23T14:46:40Z">
+    <groups>
+    </groups>
+    <test name="PlanIT_Tests" duration-ms="57226" started-at="2021-05-23T14:45:43Z" finished-at="2021-05-23T14:46:40Z">
+      <class name="planIT.tests.JupiterTests">
+        <test-method status="PASS" signature="onStart()[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="onStart" is-config="true" duration-ms="1215" started-at="2021-05-24T00:45:42Z" finished-at="2021-05-24T00:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onStart -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="initialize" is-config="true" duration-ms="134" started-at="2021-05-24T00:45:43Z" finished-at="2021-05-24T00:45:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="setup" is-config="true" duration-ms="9364" started-at="2021-05-24T00:45:43Z" finished-at="2021-05-24T00:45:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.mandatoryfieldserror()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b40ceb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mandatoryfieldserror()[pri:1, instance:planIT.tests.JupiterTests@9225652]" name="mandatoryfieldserror" duration-ms="19737" started-at="2021-05-24T00:45:53Z" finished-at="2021-05-24T00:46:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Running First @test to check mandatory fields]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the Contact Menu]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect details to validate the Error messages]]>
+            </line>
+            <line>
+              <![CDATA[Correct details to validate No Error messages displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mandatoryfieldserror -->
+        <test-method status="PASS" signature="flushReports(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="flushReports" is-config="true" duration-ms="331" started-at="2021-05-24T00:46:12Z" finished-at="2021-05-24T00:46:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mandatoryfieldserror status=SUCCESS method=JupiterTests.mandatoryfieldserror()[pri:1, instance:planIT.tests.JupiterTests@9225652] output=Running First @test to check mandatory fields]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.mandatoryfieldserror()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="setup" is-config="true" duration-ms="914" started-at="2021-05-24T00:46:13Z" finished-at="2021-05-24T00:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.successsubmission()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b40ceb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="successsubmission()[pri:2, instance:planIT.tests.JupiterTests@9225652]" name="successsubmission" duration-ms="4474" started-at="2021-05-24T00:46:14Z" finished-at="2021-05-24T00:46:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Running Second @test to check success submission]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the Contact Menu]]>
+            </line>
+            <line>
+              <![CDATA[Details for the user submitted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- successsubmission -->
+        <test-method status="PASS" signature="flushReports(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="flushReports" is-config="true" duration-ms="53" started-at="2021-05-24T00:46:18Z" finished-at="2021-05-24T00:46:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successsubmission status=SUCCESS method=JupiterTests.successsubmission()[pri:2, instance:planIT.tests.JupiterTests@9225652] output=Running Second @test to check success submission]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.successsubmission()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="setup" is-config="true" duration-ms="506" started-at="2021-05-24T00:46:18Z" finished-at="2021-05-24T00:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.invaliddatavalidation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b40ceb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invaliddatavalidation()[pri:3, instance:planIT.tests.JupiterTests@9225652]" name="invaliddatavalidation" duration-ms="2152" started-at="2021-05-24T00:46:19Z" finished-at="2021-05-24T00:46:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Running third @test to check invalid field details]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the Contact Menu]]>
+            </line>
+            <line>
+              <![CDATA[Invalid details to validate the Error messages]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invaliddatavalidation -->
+        <test-method status="PASS" signature="flushReports(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="flushReports" is-config="true" duration-ms="57" started-at="2021-05-24T00:46:21Z" finished-at="2021-05-24T00:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invaliddatavalidation status=SUCCESS method=JupiterTests.invaliddatavalidation()[pri:3, instance:planIT.tests.JupiterTests@9225652] output=Running third @test to check invalid field details]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.invaliddatavalidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="setup" is-config="true" duration-ms="110" started-at="2021-05-24T00:46:21Z" finished-at="2021-05-24T00:46:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.cartvalidation()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b40ceb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="cartvalidation()[pri:4, instance:planIT.tests.JupiterTests@9225652]" name="cartvalidation" duration-ms="18058" started-at="2021-05-24T00:46:21Z" finished-at="2021-05-24T00:46:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Running fourth @test to check success submission]]>
+            </line>
+            <line>
+              <![CDATA[Navigating to the shop Menu]]>
+            </line>
+            <line>
+              <![CDATA[Adding items to the cart]]>
+            </line>
+            <line>
+              <![CDATA[Validating items in the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cartvalidation -->
+        <test-method status="PASS" signature="flushReports(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="flushReports" is-config="true" duration-ms="37" started-at="2021-05-24T00:46:39Z" finished-at="2021-05-24T00:46:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartvalidation status=SUCCESS method=JupiterTests.cartvalidation()[pri:4, instance:planIT.tests.JupiterTests@9225652] output=Running fourth @test to check success submission]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void planIT.tests.JupiterTests.cartvalidation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="tearDown" is-config="true" duration-ms="1273" started-at="2021-05-24T00:46:39Z" finished-at="2021-05-24T00:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="flushReports" is-config="true" duration-ms="18" started-at="2021-05-24T00:46:40Z" finished-at="2021-05-24T00:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method status="PASS" signature="flushReports1()[pri:0, instance:planIT.tests.JupiterTests@9225652]" name="flushReports1" is-config="true" duration-ms="22" started-at="2021-05-24T00:46:40Z" finished-at="2021-05-24T00:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports1 -->
+      </class> <!-- planIT.tests.JupiterTests -->
+    </test> <!-- PlanIT_Tests -->
+  </suite> <!-- planIT_TestSuite -->
+</testng-results>

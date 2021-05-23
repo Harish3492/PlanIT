@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="planIT_TestSuite" duration-ms="35534" started-at="2021-05-23T07:59:06Z" finished-at="2021-05-23T07:59:41Z">
+    <groups>
+    </groups>
+    <test name="PlanIT_Tests" duration-ms="35534" started-at="2021-05-23T07:59:06Z" finished-at="2021-05-23T07:59:41Z">
+      <class name="planIT.tests.JupiterTests">
+        <test-method status="PASS" signature="onStart()[pri:0, instance:planIT.tests.JupiterTests@34b7ac2f]" name="onStart" is-config="true" duration-ms="1033" started-at="2021-05-23T17:59:05Z" finished-at="2021-05-23T17:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onStart -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:planIT.tests.JupiterTests@34b7ac2f]" name="initialize" is-config="true" duration-ms="0" started-at="2021-05-23T17:59:06Z" finished-at="2021-05-23T17:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:planIT.tests.JupiterTests@34b7ac2f]" name="driversetup" is-config="true" duration-ms="5976" started-at="2021-05-23T17:59:06Z" finished-at="2021-05-23T17:59:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="mandatoryfieldserror()[pri:1, instance:planIT.tests.JupiterTests@34b7ac2f]" name="mandatoryfieldserror" duration-ms="17927" started-at="2021-05-23T17:59:12Z" finished-at="2021-05-23T17:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mandatoryfieldserror -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:planIT.tests.JupiterTests@34b7ac2f]" name="driversetup" is-config="true" duration-ms="1037" started-at="2021-05-23T17:59:30Z" finished-at="2021-05-23T17:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="successsubmission()[pri:2, instance:planIT.tests.JupiterTests@34b7ac2f]" name="successsubmission" duration-ms="2025" started-at="2021-05-23T17:59:31Z" finished-at="2021-05-23T17:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successsubmission -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:planIT.tests.JupiterTests@34b7ac2f]" name="driversetup" is-config="true" duration-ms="440" started-at="2021-05-23T17:59:33Z" finished-at="2021-05-23T17:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="invaliddatavalidation()[pri:3, instance:planIT.tests.JupiterTests@34b7ac2f]" name="invaliddatavalidation" duration-ms="157" started-at="2021-05-23T17:59:33Z" finished-at="2021-05-23T17:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invaliddatavalidation -->
+        <test-method status="PASS" signature="driversetup()[pri:0, instance:planIT.tests.JupiterTests@34b7ac2f]" name="driversetup" is-config="true" duration-ms="102" started-at="2021-05-23T17:59:33Z" finished-at="2021-05-23T17:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driversetup -->
+        <test-method status="PASS" signature="cartvalidation()[pri:4, instance:planIT.tests.JupiterTests@34b7ac2f]" name="cartvalidation" duration-ms="7847" started-at="2021-05-23T17:59:33Z" finished-at="2021-05-23T17:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartvalidation -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:planIT.tests.JupiterTests@34b7ac2f]" name="flushReports" is-config="true" duration-ms="17" started-at="2021-05-23T17:59:41Z" finished-at="2021-05-23T17:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- planIT.tests.JupiterTests -->
+    </test> <!-- PlanIT_Tests -->
+  </suite> <!-- planIT_TestSuite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" name="PlanITLogs">
+
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d %-5level - %msg%n"/>
+		</Console>
+
+		<File name="File1" fileName="logs/PlanIT.log">
+			<PatternLayout pattern="%d %-5level - %msg%n"/>
+		</File>
+	</Appenders>
+
+	<Loggers>
+		<logger name="Console" level="Debug">
+		<AppenderRef ref="Console"/>
+		</logger>
+		<logger name="planIT.tests.JupiterTests" level="info">
+		<AppenderRef ref="File1"/>
+		</logger>
+		<logger name="planIT.pages.JupiterPages" level="info">
+		<AppenderRef ref="File1"/>
+		</logger>
+		<Root level="Error">
+		<AppenderRef ref="Console"/>
+		</Root>
+	</Loggers>
+
+</Configuration>
